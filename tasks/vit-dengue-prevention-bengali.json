@@ -1,0 +1,30 @@
+{
+  "id": "vit-dengue-prevention-bengali",
+  "title": "Translate vetted dengue prevention guidance into Bengali",
+  "project": "vital-info-translations",
+  "type": "writing",
+  "lane": "donated",
+  "priority": "high",
+  "domain": [
+    "translation",
+    "public-health"
+  ],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "translation",
+  "tokenEstimate": "small",
+  "status": "open",
+  "context": "Community health workers need vetted dengue prevention guidance in Bengali. Use a vetted public-health source (e.g. WHO/MoH); verify the source licence permits translation/derivatives and record it — do NOT assume CC-BY. Include the required source attribution and any mandated translation disclaimer.",
+  "objective": "Produce an accurate Bengali translation of vetted dengue prevention guidance, preserving medical terminology.",
+  "acceptanceCriteria": [
+    "Full source guidance translated accurately",
+    "Medical terminology preserved",
+    "Reviewed by a qualified Bengali-speaking reviewer (risk-tier: medium)",
+    "Source licence verified to permit translation + attribution/disclaimer recorded (not relicensed as CC-BY unless the source allows)"
+  ],
+  "resources": [],
+  "output": "/output/vit-dengue-prevention-bengali.md",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "source-compatible (verify; not assumed CC-BY)"
+}
