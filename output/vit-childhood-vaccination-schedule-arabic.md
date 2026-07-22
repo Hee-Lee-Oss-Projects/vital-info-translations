@@ -194,4 +194,4 @@ Date: ____________________  ·  Signature / approval ref: ____________________
 
 ---
 
-*Generated as a draft deliverable for the Elyos `vital-info-translations` good-deed project. Content adapted/translated from WHO material under CC BY-NC-SA 3.0 IGO with the mandatory WHO translation disclaimer (§0.1); WHO did not produce or endorse this translation. This draft is delivered for review and is not cleared for distribution or clinical use.*
+*Generated as a draft deliverable for the Hee-Lee Oss `vital-info-translations` good-deed project. Content adapted/translated from WHO material under CC BY-NC-SA 3.0 IGO with the mandatory WHO translation disclaimer (§0.1); WHO did not produce or endorse this translation. This draft is delivered for review and is not cleared for distribution or clinical use.*

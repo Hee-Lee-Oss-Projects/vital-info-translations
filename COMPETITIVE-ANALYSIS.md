@@ -105,7 +105,7 @@ platform and the **Gamayun** language-equality initiative (Microsoft/Cisco-funde
 ~20 under-served languages "online" over a decade, including building MT models and multilingual
 chatbots for health info.
 - *Strengths:* deep humanitarian credibility, real low-resource language data/models, established NGO
-  partnerships, professional + community translator pools — the **obvious reviewer/partner** for Elyos.
+  partnerships, professional + community translator pools — the **obvious reviewer/partner** for Hee-Lee Oss.
 - *Weaknesses:* organization-centric (their platform, their projects) rather than a public **commons of
   reusable, individually-licensed, provenanced documents**; MT-model emphasis; not a per-document open
   artifact library with attached license/review metadata.
@@ -115,7 +115,7 @@ chatbots for health info.
 CC BY-NC-SA 3.0 IGO with translation permitted under ShareAlike + disclaimer.
 - *Strengths:* authority; license explicitly allows translation; binding-original model.
 - *Weaknesses:* WHO does not itself produce or vouch for low-resource translations (hence the
-  disclaimer); coverage in long-tail languages is sparse. This *is the gap Elyos fills downstream.*
+  disclaimer); coverage in long-tail languages is sparse. This *is the gap Hee-Lee Oss fills downstream.*
 - Source: https://www.who.int/about/policies/publishing/copyright
 
 **Hesperian Health Guides** — *"Where There Is No Doctor,"* described by WHO as possibly the world's
@@ -283,10 +283,10 @@ published commons of vital-info documents for the long tail of languages.** That
 
 ## 7. Parallel & perpendicular spin-offs
 
-**Shared infrastructure (the big idea): a `high-stakes-translation` pipeline as Elyos infra.** The
+**Shared infrastructure (the big idea): a `high-stakes-translation` pipeline as Hee-Lee Oss infra.** The
 allow-list + license-as-data schema, glossary/TM schema, `provenance.yaml`/`review.yaml` schemas,
 the uncertainty-flag protocol, the second-reviewer/back-translation gate, and the CI license/negation
-linters are **domain-agnostic**. They should be factored into core Elyos infra so every translation
+linters are **domain-agnostic**. They should be factored into core Hee-Lee Oss infra so every translation
 sibling inherits the same guarantees rather than re-implementing them. `vital-info-translations` is the
 natural reference implementation and pipeline owner.
 

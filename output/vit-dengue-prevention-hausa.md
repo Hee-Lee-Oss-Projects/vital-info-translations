@@ -268,4 +268,4 @@ This translation is a derivative of WHO material and is released under the **sam
 
 ---
 
-*Drafted in the Elyos donated lane (`vit-dengue-prevention-hausa`). Deliverable status: **DRAFT pending source verification + qualified Hausa reviewer sign-off + license gate**. Not for distribution until §6 is complete.*
+*Drafted in the Hee-Lee Oss donated lane (`vit-dengue-prevention-hausa`). Deliverable status: **DRAFT pending source verification + qualified Hausa reviewer sign-off + license gate**. Not for distribution until §6 is complete.*

@@ -206,6 +206,6 @@ and authentic edition. *(Project tooling/code is MIT; that does not extend to th
 
 ---
 
-*End of draft. Prepared as a community good-deed translation draft (Elyos `vital-info-translations`).
+*End of draft. Prepared as a community good-deed translation draft (Hee-Lee Oss `vital-info-translations`).
 NOT cleared for clinical use or distribution until qualified Swahili health-translation review and
 live source/licence verification are complete.*

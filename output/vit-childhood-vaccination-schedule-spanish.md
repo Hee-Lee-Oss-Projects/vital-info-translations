@@ -1,6 +1,6 @@
 <!--
   Deliverable: vit-childhood-vaccination-schedule-spanish
-  Project: vital-info-translations (Elyos donated lane)
+  Project: vital-info-translations (Hee-Lee Oss donated lane)
   Type: translation  ·  Risk tier: medium
   Source family: WHO (World Health Organization)
   Output license: source-compatible — CC BY-NC-SA 3.0 IGO (inherits the source terms; NOT CC-BY)
@@ -270,7 +270,7 @@ estacional / seasonal influenza**, **varicela / varicella**, **dengue**, **malar
 
 ---
 
-*Procedencia de este borrador / Provenance of this draft:* generado para la tarea Elyos
+*Procedencia de este borrador / Provenance of this draft:* generado para la tarea Hee-Lee Oss
 `vit-childhood-vaccination-schedule-spanish` (lane donado, sin ánimo de lucro). Beneficiario previsto:
 agentes de salud comunitarios. *Requestor:* TO BE SECURED · *verifiedNeed:* false. **Entregado, no
 fusionado:** requiere la firma del revisor (§6) antes de su adopción.

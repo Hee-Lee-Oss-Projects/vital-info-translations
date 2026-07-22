@@ -63,7 +63,7 @@ Mandatory WHO translation disclaimer — English text (include verbatim):**
 > Organisation mondiale de la Santé. *WHO recommendations for routine immunization — summary tables*
 > [titre et année exacts à confirmer]. Genève : OMS ; [année]. Licence : CC BY-NC-SA 3.0 IGO.
 > Traduction française non officielle réalisée dans le cadre du projet *vital-info-translations*
-> (lane « donated » d'Elyos), en attente de relecture qualifiée.
+> (lane « donated » d'Hee-Lee Oss), en attente de relecture qualifiée.
 
 **Licence de sortie de cette traduction / Output licence of this translation.**
 **Compatible avec la source** : si la source est en CC BY-NC-SA 3.0 IGO, cette traduction hérite de termes
@@ -161,7 +161,7 @@ la licence source vérifiée (voir gate n°2).
 
 ---
 
-*Document produit dans le cadre du projet Elyos `vital-info-translations` (lane « donated »,
+*Document produit dans le cadre du projet Hee-Lee Oss `vital-info-translations` (lane « donated »,
 risque moyen). Outil/code : MIT ; **contenu traduit : licence compatible avec la source** (voir §2),
 **non** CC-BY. Ce brouillon n'est pas un avis médical et n'a pas valeur faisant autorité avant la
 relecture qualifiée et la vérification de licence.*

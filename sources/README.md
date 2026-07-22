@@ -11,7 +11,7 @@ be translated until its source is allow-listed here with verified terms.**
 | File | Purpose |
 |---|---|
 | `allow-list.yaml` | The allow-list itself: one entry per source, with license terms, attribution, disclaimer, and verification status. |
-| `allow-list.schema.json` | JSON Schema (draft-07) the YAML must conform to. The canonical project schemas live in the external Elyos `packages/schema` package (`allowListSchema`); this file is the concrete, in-repo copy used for structural CI here. |
+| `allow-list.schema.json` | JSON Schema (draft-07) the YAML must conform to. The canonical project schemas live in the external Hee-Lee Oss `packages/schema` package (`allowListSchema`); this file is the concrete, in-repo copy used for structural CI here. |
 | `validate.py` | Stand-alone structural check (PyYAML + stdlib) that validates `allow-list.yaml` against the schema **and** the task's acceptance criteria. This is the `tooling-001` structural gate for this repo. |
 
 ## ⚠️ Status of the current entries (read this first)

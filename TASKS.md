@@ -5,9 +5,9 @@
 The backlog for the `vital-info-translations` good-deed project. Read alongside
 [PLAN.md](./PLAN.md). Milestones (M0–M3) match the roadmap there.
 
-## How these tasks map to Elyos
+## How these tasks map to Hee-Lee Oss
 
-Each task below becomes an **Elyos Task JSON** validated against
+Each task below becomes an **Hee-Lee Oss Task JSON** validated against
 `packages/schema/src/schemas.ts`. Field mapping:
 
 - **id** — stable slug id, e.g. `vital-info-translations-sources-001` (table column `ID`).
@@ -263,8 +263,8 @@ content.
     "File validates against the project metadata schema and passes CI structural checks"
   ],
   "resources": [
-    "C:/code/elyos/governance/proposals/vital-info-translations.md",
-    "C:/code/elyos/planning/projects/vital-info-translations/PLAN.md",
+    "C:/code/hee-lee-oss/governance/proposals/vital-info-translations.md",
+    "C:/code/hee-lee-oss/planning/projects/vital-info-translations/PLAN.md",
     "WHO permissions/licensing and translation policy pages",
     "CDC content-use / public-domain notice"
   ],

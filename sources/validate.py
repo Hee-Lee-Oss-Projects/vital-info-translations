@@ -2,7 +2,7 @@
 """Structural validator for sources/allow-list.yaml.
 
 Mirrors the structural CI check (`tooling-001` in PLAN.md) for this repo, where
-the canonical JSON Schemas live in the external Elyos schema package
+the canonical JSON Schemas live in the external Hee-Lee Oss schema package
 (`packages/schema/src/schemas.ts`). This stand-alone script lets the allow-list
 be validated in CI here using only PyYAML + the Python standard library, against
 ./allow-list.schema.json plus the task's acceptance criteria.

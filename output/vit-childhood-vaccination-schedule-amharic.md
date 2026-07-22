@@ -22,7 +22,7 @@
 | **Stated license** | WHO content is generally published under **Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO)**, which **permits translation and derivative works** under attribution + non-commercial + share-alike terms, and **requires a translation disclaimer**. ⚠️ **This is NOT relicensed as CC-BY.** The exact license of the specific source edition used **must be verified against the live document** before publication (see §6). |
 | **Attribution (required)** | Adapted/translated from World Health Organization material. © World Health Organization. Used under CC BY-NC-SA 3.0 IGO (to be confirmed). |
 | **Translation status** | Unofficial translation; not produced or endorsed by WHO or FMoH. |
-| **Translation performed by** | Drafting AI session (Elyos good-deed task `vit-childhood-vaccination-schedule-amharic`). **Pending human qualified review.** |
+| **Translation performed by** | Drafting AI session (Hee-Lee Oss good-deed task `vit-childhood-vaccination-schedule-amharic`). **Pending human qualified review.** |
 
 > **Important provenance note for the reviewer:** This draft was prepared **without live access to the
 > source web page**. The schedule below reflects the *well-established* WHO recommended routine

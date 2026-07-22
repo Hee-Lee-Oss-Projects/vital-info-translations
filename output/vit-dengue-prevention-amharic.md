@@ -150,4 +150,4 @@ avoid aspirin and ibuprofen/other NSAIDs (bleeding risk); seek care urgently if 
 - [ ] Confirm a verified adopting partner / requestor (`verifiedNeed` is currently `false`).
 - [ ] Remove the DRAFT banners only after sign-off by the qualified reviewer.
 
-*Prepared as a draft translation deliverable for the Elyos `vital-info-translations` project. Delivered, not merged: a domain reviewer must sign off before use.*
+*Prepared as a draft translation deliverable for the Hee-Lee Oss `vital-info-translations` project. Delivered, not merged: a domain reviewer must sign off before use.*

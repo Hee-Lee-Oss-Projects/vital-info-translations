@@ -1,6 +1,6 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://elyos/vital-info-translations/sources/allow-list.schema.json",
+  "$id": "https://hee-lee-oss/vital-info-translations/sources/allow-list.schema.json",
   "title": "vital-info-translations source allow-list",
   "description": "Structured, per-source license allow-list. Only sources with status 'included' AND reviewStatus 'confirmed' may be translated. This schema is used by the structural CI check (tooling-001) and underpins the per-deliverable license gate (license-002).",
   "type": "object",

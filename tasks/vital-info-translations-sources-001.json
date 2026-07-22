@@ -21,8 +21,8 @@
     "File validates against the project metadata schema and passes CI structural checks"
   ],
   "resources": [
-    "C:/code/elyos/governance/proposals/vital-info-translations.md",
-    "C:/code/elyos/planning/projects/vital-info-translations/PLAN.md",
+    "C:/code/hee-lee-oss/governance/proposals/vital-info-translations.md",
+    "C:/code/hee-lee-oss/planning/projects/vital-info-translations/PLAN.md",
     "WHO permissions/licensing and translation policy pages",
     "CDC content-use / public-domain notice"
   ],

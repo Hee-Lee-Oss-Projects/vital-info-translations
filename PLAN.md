@@ -4,7 +4,7 @@
 
 ## Executive summary
 
-`vital-info-translations` is an Elyos good-deed project that translates **vetted, life-critical
+`vital-info-translations` is a Hee-Lee Oss good-deed project that translates **vetted, life-critical
 public-health and public-safety guidance** (first aid, maternal/child health, vaccine
 information, disaster preparedness, water/sanitation) into **low-resource languages** for which
 trustworthy translated material is scarce or absent. It graduates the earlier
@@ -12,7 +12,7 @@ trustworthy translated material is scarce or absent. It graduates the earlier
 multi-language program** with explicit license discipline and qualified human review.
 
 The work runs in the **donated lane**: a human runs their own coding agent interactively to draft
-translations and supporting artifacts, then opens PRs; the Elyos CLI only prepares workspaces and
+translations and supporting artifacts, then opens PRs; the Hee-Lee Oss CLI only prepares workspaces and
 opens PRs. Every translation is gated by a **qualified language reviewer with health-translation
 competence** (the project is **medium risk tier**) and by a **per-source license check** before it
 can be marked delivered.
@@ -154,7 +154,7 @@ work.
 ## Solution approach & architecture
 
 This is primarily a **content/data pipeline** project (deliverables are translations + data
-artifacts), with light tooling. It rides on existing Elyos donated-lane mechanics (CLI prepares
+artifacts), with light tooling. It rides on existing Hee-Lee Oss donated-lane mechanics (CLI prepares
 workspace, human runs agent, PR opened, human/expert review gates "done").
 
 **Pipeline (per document × language)**
@@ -358,7 +358,7 @@ named.
 ## Work breakdown
 
 The itemized, sized backlog lives in **[TASKS.md](./TASKS.md)**, organized by the milestones
-above (M0–M3) plus a Backlog/future section. Each task maps to an Elyos Task JSON (see the schema
+above (M0–M3) plus a Backlog/future section. Each task maps to a Hee-Lee Oss Task JSON (see the schema
 in `packages/schema/src/schemas.ts`) with id, type, lane, risk tier, deliverable, acceptance
 criteria, and license fields. M0 tasks are partner-independent foundations; M2+ tasks are gated on
 a secured partner and are marked accordingly (`verifiedNeed: false` until then).
@@ -383,7 +383,7 @@ a secured partner and are marked accordingly (`verifiedNeed: false` until then).
 
 ## Dependencies & integrations
 
-- **Elyos donated lane**: `packages/cli` (workspace prep + PR), `packages/core`,
+- **Hee-Lee Oss donated lane**: `packages/cli` (workspace prep + PR), `packages/core`,
   `packages/schema` (Task JSON). No funded-lane / API-key execution in this project.
 - **Public source sites**: WHO, national MoH portals, CDC, MSF (read-only retrieval; license
   verification per source).
@@ -465,10 +465,10 @@ a secured partner and are marked accordingly (`verifiedNeed: false` until then).
 
 ## References
 
-- `C:\code\elyos\CLAUDE.md` — Elyos work rules, lanes, quality bar, refusal guardrails.
-- `C:\code\elyos\docs\good-deed-definition.md` — good-deed criteria and risk tiers.
-- `C:\code\elyos\packages\schema\src\schemas.ts` — Task JSON schema.
-- `C:\code\elyos\governance\proposals\vital-info-translations.md` — originating proposal.
+- `C:\code\hee-lee-oss\CLAUDE.md` — Hee-Lee Oss work rules, lanes, quality bar, refusal guardrails.
+- `C:\code\hee-lee-oss\docs\good-deed-definition.md` — good-deed criteria and risk tiers.
+- `C:\code\hee-lee-oss\packages\schema\src\schemas.ts` — Task JSON schema.
+- `C:\code\hee-lee-oss\governance\proposals\vital-info-translations.md` — originating proposal.
 - WHO permissions & licensing / translation policy (verify current terms per publication).
 - CDC content-use / public-domain notice (verify per page for embedded third-party content).
 - Translators without Borders / CLEAR Global (candidate reviewer partner).
