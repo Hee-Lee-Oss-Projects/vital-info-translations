@@ -1,0 +1,28 @@
+{
+  "id": "vital-info-translations-license-verify-001",
+  "title": "Verify + record permissive-license sources (automatable, CI-checked)",
+  "project": "vital-info-translations",
+  "type": "data",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["translation", "public-health", "licensing", "compliance"],
+  "riskTier": "medium",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "sources/allow-list.yaml entries are provisional. For sources under CLEARLY-PERMISSIVE licenses (CC-BY-4.0, CC-BY-SA where compatible, CC0, public domain, UK OGL-3.0), permission-to-translate is machine-determinable and verifiable, so it can be done by an agent and checked in CI. WHO/custom/ambiguous terms are OUT of scope here (they go to the human task license-confirm-restricted-001). This task is medium-risk: it will be built but always opens a PR for human review, never auto-merges.",
+  "objective": "For each source whose license is on the permissive allow-list, (a) live-fetch the canonical URL and license URL, (b) capture bytes + record sha256 + a Wayback/archive URL, (c) record the SPDX license id, (d) confirm the license's derivative/translation clause permits translation and quote the clause, (e) record the required attribution string and any required disclaimer verbatim, (f) set reviewStatus to verified. NEVER relicense output as CC-BY unless the source license permits it — record the source license, do not replace it. Also add a validator script that CI runs to re-check these invariants per entry. Leave any WHO/custom/ambiguous source as reviewStatus provisional and enumerate it for the human task.",
+  "acceptanceCriteria": [
+    "Every verified entry records a non-null license snapshot sha256 AND a Wayback/archive URL",
+    "Every verified entry records an SPDX license id that is on the permissive allow-list (CC-BY-4.0, CC-BY-SA-compatible, CC0, public-domain, OGL-3.0)",
+    "Derivatives/translation permission is justified by a quoted clause from the license; required attribution string and any required disclaimer are recorded verbatim",
+    "Output is NOT relicensed as CC-BY unless the source license permits it; the source license is preserved and recorded per entry",
+    "A validator script is added and passes in CI, asserting the above invariants for every verified entry",
+    "WHO/custom/ambiguous sources are left reviewStatus provisional and listed for the human license-confirmation task (out of scope here)"
+  ],
+  "output": "sources/allow-list.yaml",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}

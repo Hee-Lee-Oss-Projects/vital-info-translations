@@ -1,0 +1,27 @@
+{
+  "id": "vital-info-translations-license-confirm-restricted-001",
+  "title": "Human license confirmation for WHO/custom/ambiguous sources (held)",
+  "project": "vital-info-translations",
+  "type": "data",
+  "lane": "donated",
+  "priority": "high",
+  "domain": ["translation", "public-health", "licensing", "compliance"],
+  "riskTier": "high",
+  "urgent": false,
+  "deliverable": "dataset",
+  "tokenEstimate": "medium",
+  "status": "open",
+  "context": "The residue the automated verify task cannot safely clear: WHO's non-CC terms (mandatory translation disclaimer, NOT open) and any custom or ambiguous source terms. Mis-licensing translated medical content is a real legal/rights harm, so this step needs a qualified human license/compliance reviewer and is deliberately HELD from automated building (riskTier high).",
+  "objective": "For each WHO/custom/ambiguous source in sources/allow-list.yaml, a qualified human license/compliance reviewer must (a) live-fetch the canonical + license URL, (b) capture bytes + record sha256 + a Wayback archive URL, (c) confirm whether derivatives/translation are permitted, (d) record the exact required disclaimer wording verbatim, then promote the entry to reviewStatus confirmed. WHO entries must capture the mandatory translation disclaimer and note the terms are NOT CC-BY. Any source with unclear or incompatible terms is marked status excluded with a documented reason.",
+  "acceptanceCriteria": [
+    "Every WHO/custom/ambiguous included source has reviewStatus confirmed with a named human verifiedBy and verifiedDate",
+    "Each confirmed entry records a license snapshot sha256 and a Wayback/archive URL (no null snapshots)",
+    "WHO entries capture the mandatory translation disclaimer verbatim and record that terms are NOT CC-BY",
+    "Any source with unclear/incompatible terms is status excluded with a documented reason",
+    "Performed by a qualified human license/compliance reviewer, NOT an automated agent"
+  ],
+  "output": "sources/allow-list.yaml",
+  "requestor": "TO BE SECURED",
+  "verifiedNeed": false,
+  "outputLicense": "MIT"
+}
