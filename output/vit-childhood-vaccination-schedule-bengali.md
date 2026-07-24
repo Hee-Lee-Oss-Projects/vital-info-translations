@@ -115,6 +115,21 @@ permissions page before publishing):**
 | ২য় DTP বুস্টার | ৪–৭ বছর (4–7 years) | |
 | ৩য় Td বুস্টার | ৯–১৫ বছর (9–15 years) | কিশোর বয়সে টিটেনাস-ডিপথেরিয়া (Td)। |
 
+### সারণি ৩ — নির্দিষ্ট অঞ্চল বা ঝুঁকিভিত্তিক টিকা / Context-dependent vaccines
+
+> উপরের মূল টিকাগুলো ছাড়াও WHO কিছু টিকা সুপারিশ করে **নির্দিষ্ট অঞ্চলের শিশু** বা **উচ্চ-ঝুঁকির
+> শিশুদের** জন্য। এগুলো দেওয়া হবে কি না তা নির্ভর করে জাতীয় টিকাদান কর্মসূচি (EPI) ও স্থানীয় রোগের
+> প্রকোপের ওপর। সম্পূর্ণতার জন্য এখানে যুক্ত করা হলো; স্থানীয় নীতিমালা অনুসরণ করুন।
+
+| শ্রেণি (Category) | টিকা (Vaccines) | মন্তব্য (Notes) |
+|---|---|---|
+| নির্দিষ্ট অঞ্চলের শিশু (children in certain regions) | ইয়েলো ফিভার (yellow fever); জাপানিজ এনসেফালাইটিস (Japanese encephalitis); টিক-বাহিত এনসেফালাইটিস (tick-borne encephalitis); ম্যালেরিয়া টিকা (malaria — RTS,S/AS01 বা R21/Matrix-M) | ম্যালেরিয়া টিকা মাঝারি-থেকে-উচ্চ *P. falciparum* সংক্রমণ এলাকার শিশুদের জন্য; সঠিক বয়স ও ৪-ডোজ সময়সূচি উৎস থেকে যাচাই করুন। |
+| উচ্চ-ঝুঁকির শিশু (high-risk groups) | টাইফয়েড (typhoid); কলেরা (cholera); মেনিনজোকক্কাল (meningococcal); হেপাটাইটিস এ (hepatitis A); জলাতঙ্ক/র‍্যাবিস (rabies); ডেঙ্গু (dengue) | ঝুঁকি ও স্থানীয় প্রকোপ অনুযায়ী দেওয়া হয়। |
+| কর্মসূচিভিত্তিক / অন্যান্য (programme-dependent) | মৌসুমি ইনফ্লুয়েঞ্জা (seasonal influenza); মাম্পস (mumps); ভ্যারিসেলা—জল-বসন্ত (varicella/chickenpox); কোভিড-১৯ (COVID-19) | দেশের নীতিমালা ও সরবরাহ অনুযায়ী অন্তর্ভুক্ত হতে পারে। |
+
+> ⚠️ এই তালিকার নির্দিষ্ট টিকা, বয়স ও ডোজ সংখ্যা দেশভেদে ভিন্ন — মূল WHO উৎস ও জাতীয় EPI থেকে
+> নিশ্চিত করুন (নিচের `UNCERTAIN-6` দেখুন)।
+
 ### গুরুত্বপূর্ণ নির্দেশনা / Key guidance notes
 
 - **সময়মতো শুরু করুন, সম্পূর্ণ করুন:** প্রতিটি টিকার পূর্ণ ডোজ নির্দিষ্ট সময়ে দিলে সর্বোত্তম সুরক্ষা পাওয়া
@@ -158,6 +173,17 @@ permissions page before publishing):**
 | measles–rubella | হাম-রুবেলা | abbreviation **MR** kept verbatim |
 | human papillomavirus | হিউম্যান প্যাপিলোমাভাইরাস | abbreviation **HPV** kept verbatim |
 | pentavalent | পেন্টাভ্যালেন্ট | DTP–HepB–Hib combination |
+| yellow fever | ইয়েলো ফিভার | context-dependent (endemic regions) |
+| Japanese encephalitis | জাপানিজ এনসেফালাইটিস | |
+| typhoid | টাইফয়েড | |
+| cholera | কলেরা | |
+| meningococcal | মেনিনজোকক্কাল | |
+| hepatitis A | হেপাটাইটিস এ | |
+| rabies | জলাতঙ্ক (র‍্যাবিস) | |
+| dengue | ডেঙ্গু | |
+| mumps | মাম্পস | |
+| varicella (chickenpox) | ভ্যারিসেলা (জল-বসন্ত) | |
+| malaria vaccine | ম্যালেরিয়া টিকা | RTS,S/AS01, R21/Matrix-M kept verbatim |
 
 > **Convention:** internationally standardized vaccine abbreviations (BCG, OPV, IPV, DTP, Hib, PCV,
 > MCV, MR, HPV, Td) are **kept verbatim** so they match vaccine vials, EPI cards, and WHO materials;
@@ -210,6 +236,14 @@ flags:
     issue: "Confirm whether the deliverable should reflect the generic WHO recommendation or the
             reader's national EPI schedule (e.g. Bangladesh EPI), and reconcile differences."
     severity: high
+    status: open
+  - id: UNCERTAIN-6
+    field: "Context-dependent vaccines (Table 3)"
+    issue: "Regional/high-risk vaccines (yellow fever, JE, malaria RTS,S/R21, typhoid, cholera,
+            meningococcal, hepatitis A, rabies, dengue, influenza, mumps, varicella, COVID-19) and
+            their exact target ages, dose counts and the malaria 4-dose schedule vary by region and
+            programme. Confirm the current WHO wording and which apply to the deploying country."
+    severity: medium
     status: open
 notes:
   - "No dosage is invented; all values are at the level WHO states them. Specifics that vary by
