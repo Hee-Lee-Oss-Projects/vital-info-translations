@@ -5,12 +5,17 @@
   "type": "data",
   "lane": "donated",
   "priority": "high",
-  "domain": ["translation", "public-health", "public-safety", "licensing"],
+  "domain": [
+    "translation",
+    "public-health",
+    "public-safety",
+    "licensing"
+  ],
   "riskTier": "low",
   "urgent": false,
   "deliverable": "dataset",
   "tokenEstimate": "small",
-  "status": "open",
+  "status": "done",
   "context": "vital-info-translations translates vetted public-health/safety guidance into low-resource languages. Source material is NOT uniformly CC-BY: WHO content carries WHO terms (often CC BY-NC-SA 3.0 IGO) plus a mandatory translation disclaimer, MoH terms vary, CDC is often US public domain but may embed third-party material. Nothing may be translated until its source is allow-listed with verified terms.",
   "objective": "Create a structured, per-source allow-list recording each approved source's license terms, derivatives permission, required attribution, and any mandatory disclaimer, so the per-deliverable license gate can be checked consistently.",
   "acceptanceCriteria": [
