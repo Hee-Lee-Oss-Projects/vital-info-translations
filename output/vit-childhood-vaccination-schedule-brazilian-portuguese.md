@@ -30,7 +30,7 @@
 |---|------------------|-----------|------------|
 | 1 | Orientação-fonte traduzida integralmente e com exatidão | ⚠️ Rascunho | Traduzido a partir das **recomendações de imunização de rotina da OMS** (estrutura estável e amplamente publicada). Os **valores exatos (idades, nº de doses, intervalos) devem ser conferidos linha a linha contra a fonte ao vivo** antes da entrega. |
 | 2 | Terminologia médica preservada | ✅ Atendido (a confirmar na revisão) | Siglas internacionais de vacinas mantidas (BCG, DTP, Hib, PCV, etc.); ver glossário (§6). |
-| 3 | Revisão por revisor(a) qualificado(a) de pt-BR (risco: médio) | ❌ **PENDENTE** | Não pode ser realizada por uma IA. É um **portão obrigatório** antes da entrega. Ver §7. |
+| 3 | Revisão por revisor(a) qualificado(a) de pt-BR (risco: médio) | ❌ **PENDENTE** | Não pode ser realizada por uma IA. **Portão obrigatório** antes da entrega. Por conter doses/idades/negações, exige também **retrotradução independente** e **2º(ª) revisor(a) independente**. Ver §7. |
 | 4 | Licença da fonte verificada + atribuição/aviso registrados | ⚠️ Parcial | **Família de licença e aviso registrados** (OMS: CC BY-NC-SA 3.0 IGO + aviso de tradução obrigatório, §3–§4). **Captura ao vivo da fonte (URL/data/hash) PENDENTE** — sem acesso à web nesta etapa. **Não** relicenciado como CC-BY. |
 
 > Marque os itens ❌/⚠️ como concluídos **somente** após a revisão humana qualificada e a
@@ -42,7 +42,9 @@
 
 - **Fonte (Source):** World Health Organization — *WHO recommendations for routine
   immunization – summary tables* (tabela de imunização de rotina para crianças).
-  *(Identificador na allow-list do projeto: a registrar em `sources/allow-list.yaml`.)*
+  *(Identificador na allow-list do projeto: entrada `who-publications` em
+  `sources/allow-list.yaml`, atualmente `reviewStatus: provisional` — `sha256: null`,
+  `archiveUrl: null`. Deve ser promovida a `confirmed` na verificação ao vivo.)*
 - **Editor (Publisher):** World Health Organization (WHO), Genebra.
 - **URL da fonte:** ⚠️ **A CONFIRMAR ao vivo** — esta minuta foi redigida sem acesso à
   internet; o(a) revisor(a) deve recuperar a página oficial da OMS, registrar a **URL exata**,
@@ -142,6 +144,25 @@ Esta tradução, portanto, **não é CC-BY** e **não pode** ser relicenciada co
 > de vacina. Para a prática, **siga sempre o calendário oficial do PNI vigente**; esta
 > tradução da orientação global da OMS é material de apoio sujeito a revisão.
 
+### 5.3 Princípios operacionais para agentes comunitários de saúde / Key principles for CHWs
+
+> **Atenção à segurança.** Estas orientações refletem princípios operacionais da OMS para a
+> imunização de rotina. As **negações são críticas** (ex.: "**não** reiniciar", "**não**
+> encurtar intervalos", "doença leve **não** é motivo para adiar") — confira cada uma
+> palavra por palavra na revisão. Todos os valores permanecem provisórios até a
+> reconciliação com a fonte ao vivo.
+
+| EN (fonte) | pt-BR (tradução) |
+|---|---|
+| Start the schedule on time — the first doses begin at birth and at 6 weeks. | Iniciar o calendário na idade certa — as primeiras doses começam ao nascer e às 6 semanas. |
+| A delayed child does **not** need to restart the series — continue from where the schedule stopped; do not repeat earlier doses. | Uma criança em atraso **não** precisa reiniciar o esquema — continuar de onde parou; não repetir as doses já aplicadas. |
+| Respect the minimum interval (usually 4 weeks) between doses of the same vaccine. Do **not** shorten intervals. | Respeitar o intervalo mínimo (em geral 4 semanas) entre doses da mesma vacina. **Não** encurtar os intervalos. |
+| Mild illness (e.g. low fever, mild cold) is **not** a reason to delay vaccination. | Doença leve (ex.: febre baixa, resfriado leve) **não** é motivo para adiar a vacinação. |
+| Several vaccines may be given on the same day, at different injection sites, per national policy. | Várias vacinas podem ser aplicadas no mesmo dia, em locais de injeção diferentes, conforme a política nacional. |
+| Record **every** dose on the child's vaccination card and in the register. | Registrar **todas** as doses na caderneta de vacinação da criança e no registro/sistema. |
+| Follow the **national** schedule and the product label for the exact vaccine, dose, and route. | Seguir o calendário **nacional** (PNI) e a bula do produto quanto à vacina, dose e via corretas. |
+| Check contraindications and true allergies before administering; report adverse events following immunization (AEFI). | Verificar contraindicações e alergias verdadeiras antes de aplicar; notificar eventos adversos pós-vacinação (EAPV/AEFI). |
+
 ---
 
 ## 6. Glossário de terminologia preservada / Preserved-terminology glossary
@@ -166,6 +187,10 @@ As **siglas internacionais não são traduzidas**. A coluna pt-BR traz a expans�
 | Birth dose | Dose ao nascer |
 | Routine immunization | Imunização de rotina |
 | Antigen | Antígeno |
+| Minimum interval | Intervalo mínimo (segurança — não encurtar) |
+| Catch-up / continue the series | Atualização (não reiniciar; continuar de onde parou) |
+| AEFI (adverse event following immunization) | EAPV — evento adverso pós-vacinação |
+| Contraindication | Contraindicação |
 
 ---
 
@@ -178,15 +203,26 @@ As **siglas internacionais não são traduzidas**. A coluna pt-BR traz a expans�
       intervalos, reforços) — em especial os itens marcados como "conferir na fonte".
 - [ ] **Recomendação de HPV** confirmada (dose única vs. 2 doses; faixa etária) na fonte atual.
 - [ ] **Esquema de rotavírus** confirmado por produto (RV1 = 2 doses; RV5 = 3 doses) e idade máxima.
+- [ ] **Princípios operacionais (§5.3)** conferidos, com atenção especial às **negações de
+      segurança** ("não reiniciar o esquema", "não encurtar intervalos", "doença leve não é
+      motivo para adiar").
 - [ ] **Terminologia médica** preservada e adequada ao pt-BR (siglas mantidas; expansões corretas).
 - [ ] **Coerência com o PNI/Ministério da Saúde** sinalizada onde houver divergência.
+- [ ] **Retrotradução (back-translation) pt-BR → EN** independente, comparada à coluna-fonte
+      em inglês e reconciliada — **obrigatória** por se tratar de conteúdo com doses/idades/negações.
+- [ ] **2º(ª) revisor(a) independente** (risco médio + conteúdo com doses/negações) — assinatura registrada.
 - [ ] **Proveniência da fonte** preenchida: URL, versão/data, data de recuperação, hash da captura.
-- [ ] **Licença** confirmada na página/documento específico da OMS; **atribuição** finalizada (§3).
+- [ ] **Licença** confirmada na página/documento específico da OMS; **atribuição** finalizada (§3);
+      entrada `who-publications` da allow-list promovida a `reviewStatus: confirmed`.
 - [ ] **Aviso de tradução obrigatório** (§4) presente e em inglês (texto vinculante).
 - [ ] **Sem relicenciamento indevido** (mantida CC BY-NC-SA 3.0 IGO; **não** CC-BY).
 - [ ] **Qualificação do(a) revisor(a):** nome, competência em tradução de saúde, data — registrados.
 
 **Sign-off do(a) revisor(a):** ____________________  **Data:** __________  **Qualificação:** __________
+
+**2º(ª) revisor(a) independente:** ____________________  **Data:** __________  **Qualificação:** __________
+
+**Decisão / Decision:** ☐ Aprovado para distribuição ☐ Devolvido para correções ☐ Rejeitado
 
 ---
 
