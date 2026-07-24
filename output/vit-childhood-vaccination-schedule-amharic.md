@@ -21,6 +21,7 @@
 | **Target language** | Amharic (አማርኛ). |
 | **Stated license** | WHO content is generally published under **Creative Commons Attribution-NonCommercial-ShareAlike 3.0 IGO (CC BY-NC-SA 3.0 IGO)**, which **permits translation and derivative works** under attribution + non-commercial + share-alike terms, and **requires a translation disclaimer**. ⚠️ **This is NOT relicensed as CC-BY.** The exact license of the specific source edition used **must be verified against the live document** before publication (see §6). |
 | **Attribution (required)** | Adapted/translated from World Health Organization material. © World Health Organization. Used under CC BY-NC-SA 3.0 IGO (to be confirmed). |
+| **License of THIS translation (derivative)** | Because the WHO source license carries a **ShareAlike** condition, this Amharic translation is **itself licensed under CC BY-NC-SA 3.0 IGO** (NonCommercial + ShareAlike). It is **NOT** relicensed as CC-BY and must not be used commercially. This is *source-compatible* per the task's `outputLicense`. (Confirm against the specific source edition — see §6.) / የዚህ ትርጉም (ተዋጽኦ ሥራ) ፍቃድ፡ የWHO ምንጭ ፍቃድ **ShareAlike** ስላለው ይህ የአማርኛ ትርጉምም በ **CC BY-NC-SA 3.0 IGO** (ንግድ-አልባ + ShareAlike) ፍቃድ ስር ነው። እንደ CC-BY **አልተለቀቀም**፤ ለንግድ አገልግሎትም አይውልም። |
 | **Translation status** | Unofficial translation; not produced or endorsed by WHO or FMoH. |
 | **Translation performed by** | Drafting AI session (Hee-Lee Oss good-deed task `vit-childhood-vaccination-schedule-amharic`). **Pending human qualified review.** |
 
@@ -66,6 +67,24 @@
 > የክትባት ካርድ በጥንቃቄ ይያዙና በእያንዳንዱ ጉብኝት ይዘውት ይምጡ። ሕፃኑ እንደ ቀላል ጉንፋን ያለ ቀላል ሕመም ቢኖረውም
 > ክትባት ሊሰጥ ይችላል።
 
+### 3.1 Why vaccination matters — ክትባት ለምን ወሳኝ ነው
+
+**English (source):**
+> - Vaccines protect children from dangerous diseases that can kill or cause lifelong disability.
+> - Most of these diseases are hard to treat once a child catches them; vaccination is safer, easier,
+>   and cheaper than treatment.
+> - When most children in a community are vaccinated, the disease cannot spread easily — this also
+>   protects babies who are too young to be vaccinated.
+> - Routine childhood vaccines are safe and are usually given free of charge at government health facilities.
+
+**አማርኛ (ትርጉም):**
+> - ክትባቶች ሕፃናትን ለሞት ከሚዳርጉ ወይም ዕድሜ ልክ የአካል ጉዳት ከሚያስከትሉ አደገኛ በሽታዎች ይከላከላሉ።
+> - እነዚህ በሽታዎች ሕፃኑን ካጠቁ በኋላ ለማከም አስቸጋሪ ናቸው፤ መከተብ ከማከም ይልቅ ደህንነቱ የተጠበቀ፣ ቀላልና
+>   ወጪ ቆጣቢ ነው።
+> - በአንድ ማኅበረሰብ ውስጥ አብዛኞቹ ሕፃናት ሲከተቡ በሽታው በቀላሉ አይሰራጭም — ይህ ገና ለመከተብ ዕድሜያቸው
+>   ያልደረሱ ሕፃናትንም ይከላከላል።
+> - መደበኛ የሕፃናት ክትባቶች ደህንነታቸው የተጠበቀ ሲሆን አብዛኛውን ጊዜ በመንግሥት ጤና ተቋማት በነጻ ይሰጣሉ።
+
 ---
 
 ## 4. Vaccination schedule — የክትባት መርሐ ግብር
@@ -97,6 +116,21 @@ WHO recommends at least one IPV dose; some programmes give two. Confirm with nat
 
 > **የሮታ ቫይረስ ማስታወሻ / Rotavirus note:** እንደ ክትባቱ ዓይነት 2 ወይም 3 ዶዝ ሊሆን ይችላል። /
 > 2 or 3 doses depending on the vaccine product used — confirm with the national schedule.
+
+### 4.1 Additional antigens/supplements that may be in the Ethiopian FMoH schedule — reviewer must confirm
+
+> ⚠️ The items below are part of the Ethiopian EPI programme in some regions/years but their inclusion,
+> age and dose **vary** — the reviewer **must confirm each against the current FMoH schedule** before
+> use. They are listed here for completeness, **not** asserted as verified for every reader.
+> ⚠️ ከዚህ በታች ያሉት በኢትዮጵያ EPI ፕሮግራም በአንዳንድ ክልሎች/ዓመታት የሚካተቱ ናቸው፤ ዕድሜያቸውና ዶዛቸው ግን
+> ይለያያል — ገምጋሚው **እያንዳንዱን ከወቅታዊው የFMoH መርሐ ግብር ጋር ማረጋገጥ አለበት**።
+
+| ዕድሜ / Age | ንጥል / Item | ዓላማ / Purpose | ማስታወሻ / Note |
+|---|---|---|---|
+| ከ6 ወር ጀምሮ (በየ6 ወሩ) / from 6 months (every 6 months) | **ቫይታሚን ኤ ማሟያ / Vitamin A supplementation** | ክትባት አይደለም፤ የበሽታ መከላከል አቅምን ያጠናክራል፣ ዓይነ ስውርነትን ይከላከላል / Not a vaccine; boosts immunity, prevents blindness | በክትባት ጉብኝት ላይ ይሰጣል / given at immunization contacts |
+| 9–18 ወር (በክልል ላይ የተመሠረተ) / 9–18 months (region-dependent) | **የማጅራት ገትር A ክትባት (MenA) / Meningococcal A** | የማጅራት ገትር በሽታ / Meningococcal meningitis | በ"ሜኒንጃይትስ ቀበቶ" ክልሎች / in meningitis-belt regions |
+| ~14 ዓመት ልጃገረዶች / girls ~14 yrs | **የHPV ክትባት / HPV vaccine** | የማህጸን በር ካንሰርን የሚያመጣ HPV / HPV that causes cervical cancer | በጉርምስና ዕድሜ ላይ ያሉ ልጃገረዶች / for adolescent girls |
+| 9 ወር / 9 months | **የኩፍኝ-ሩቤላ (MR) / Measles-Rubella** | ኩፍኝ + ሩቤላ / Measles + rubella | MR ባስተዋወቁ አካባቢዎች ኩፍኝ-ብቻ ክትባትን ሊተካ ይችላል / where introduced, MR may replace measles-only |
 
 ---
 
@@ -185,6 +219,9 @@ The reviewer / coordinator must confirm each item against **live, current** sour
 | PCV (pneumococcal conjugate vaccine) | ፒሲቪ (PCV) | kept abbreviation |
 | Rotavirus vaccine | የሮታ ቫይረስ ክትባት | — |
 | Measles / MR vaccine | የኩፍኝ / ኤም-አር (MR) ክትባት | — |
+| Meningococcal A (MenA) | የማጅራት ገትር A ክትባት (MenA) | kept abbreviation |
+| HPV (human papillomavirus) | ኤች-ፒ-ቪ (HPV) | prevents cervical cancer (የማህጸን በር ካንሰር) |
+| Vitamin A supplementation | የቫይታሚን ኤ ማሟያ | supplement, not a vaccine |
 | Vaccination card | የክትባት ካርድ | — |
 | Fever | ትኩሳት | — |
 | Convulsions / fits | መንቀጥቀጥ (የሚጥል ሕመም) | — |
