@@ -97,9 +97,9 @@ That live snapshot/hash step **was not performed** when generating this draft (n
 
 | Category (EN → AR) | Vaccines (EN) | اللقاحات (AR) |
 |---|---|---|
-| Children in certain regions → الأطفال في مناطق معيّنة | Yellow fever; Japanese encephalitis; tick-borne encephalitis | الحمى الصفراء؛ التهاب الدماغ الياباني؛ التهاب الدماغ المنقول بالقُراد |
+| Children in certain regions → الأطفال في مناطق معيّنة | Yellow fever; Japanese encephalitis; tick-borne encephalitis; malaria (RTS,S/AS01 or R21/Matrix-M, for children in moderate-to-high *P. falciparum* transmission areas) | الحمى الصفراء؛ التهاب الدماغ الياباني؛ التهاب الدماغ المنقول بالقُراد؛ الملاريا (لقاح RTS,S/AS01 أو R21/Matrix-M، للأطفال في مناطق انتقال المتصوّرة المنجلية المتوسط إلى المرتفع) |
 | Children in high-risk groups → الأطفال في فئات عالية الخطورة | Typhoid; cholera; meningococcal; hepatitis A; rabies; dengue | التيفوئيد (الحمى التيفية)؛ الكوليرا؛ المكوّرات السحائية؛ التهاب الكبد (أ)؛ داء الكَلَب (السُّعار)؛ حُمّى الضنك |
-| Other / programme-dependent → أخرى حسب البرنامج | Seasonal influenza; mumps; COVID-19 | الإنفلونزا الموسمية؛ النُّكاف (أبو كعب)؛ كوفيد-١٩ |
+| Other / programme-dependent → أخرى حسب البرنامج | Seasonal influenza; mumps; varicella (chickenpox); COVID-19 | الإنفلونزا الموسمية؛ النُّكاف (أبو كعب)؛ الجُدري المائي (الحُماق)؛ كوفيد-١٩ |
 
 ### 2.3 Key principles for community health workers / مبادئ أساسية للعاملين الصحيين المجتمعيين
 
@@ -148,6 +148,8 @@ That live snapshot/hash step **was not performed** when generating this draft (n
 | Meningococcal | المكوّرات السحائية | |
 | Rabies | داء الكَلَب (السُّعار) | |
 | Dengue | حُمّى الضنك | |
+| Malaria vaccine (RTS,S/AS01, R21/Matrix-M) | لقاح الملاريا | For children in endemic regions / للأطفال في المناطق الموبوءة |
+| Varicella (chickenpox) | الجُدري المائي (الحُماق) | |
 | Contraindication | مانع الاستعمال (موانع التطعيم) | |
 | Adverse event following immunization (AEFI) | الأحداث الضائرة التالية للتمنيع | |
 
@@ -161,6 +163,7 @@ Per the project review convention, each uncertainty is flagged so the reviewer c
 - `UNCERTAIN: HPV | dosage | current WHO 1-dose vs 2-dose recommendation and exact target age band — confirm against live source.`
 - `UNCERTAIN: measles | timing | MCV1 at 9 vs 12 months depends on local measles risk — confirm the wording reflects the current WHO position.`
 - `UNCERTAIN: ambiguous-source | the exact WHO document/version (summary table 2 vs a specific position paper) and its retrieval date must be pinned in §1 before delivery.`
+- `UNCERTAIN: malaria | §2.2 now lists the WHO malaria vaccine (RTS,S/AS01, 2021; R21/Matrix-M, 2023) for children in moderate-to-high P. falciparum transmission areas, and varicella under programme-dependent vaccines — confirm the current WHO wording, target ages and 4-dose schedule against the live source.`
 - Translation choices to confirm with a native Arabic medical reviewer: use of **التمنيع** vs **التطعيم**; **الخُناق** vs transliteration **الدفتيريا** (both given); **المكوّرات الرئوية المُقترِن** phrasing for PCV. These are presented with common synonyms in parentheses; the reviewer should standardise to the partner/MoH's preferred terminology.
 
 **Back-translation QA (mandatory, OPEN):** an independent Arabic→English back-translation must be compared against the English source column above before sign-off (PLAN.md review process). Not yet performed.
